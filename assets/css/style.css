@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* --------------- reiniciador --------------- */
+body {
+  font-family: "Playfair Display", serif;
+}
+/* --------------- BODY --------------- */
+header {
+  background-color: rgb(28, 28, 28);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 15px;
+}
+h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+/* --------------- HEADER --------------- */
