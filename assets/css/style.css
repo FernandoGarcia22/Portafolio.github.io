@@ -47,10 +47,6 @@ img {
   align-content: center;
   padding: 15px;
 }
-.proyectos h3 {
-  font-size: 1.5em;
-  font-weight: 700;
-}
 /* --------------- PROJECTS BOX --------------- */
 .proyecto {
   display: flex;
