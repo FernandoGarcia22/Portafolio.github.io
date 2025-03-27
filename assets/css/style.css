@@ -33,6 +33,44 @@ section {
   align-content: center;
   padding: 15px;
 }
+
+a {
+  text-transform: uppercase;
+  margin-top: 30px;
+  padding: 2px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: white;
+}
+
+a:hover {
+  text-decoration: overline;
+  margin-top: 30px;
+  padding: 2px;
+  letter-spacing: 2px;
+  color: rgb(28, 28, 28);
+  background-color: white;
+}
+
+.ej13 {
+  width: auto;
+  height: 200px;
+}
+
+#img11 {
+  height: 450px;
+  width: auto;
+}
+
+#img15 {
+  height: 450px;
+  width: auto;
+}
+#img16 {
+  height: 450px;
+  width: auto;
+}
+
 img {
   width: 53%;
   height: auto;
@@ -48,6 +86,51 @@ img {
   padding: 15px;
 }
 /* --------------- PROJECTS BOX --------------- */
+#div11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* gap: 650px; */
+  padding: 15px;
+  margin: 10px;
+}
+#div13 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* gap: 650px; */
+  padding: 15px;
+  margin: 10px;
+}
+#div15 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* gap: 650px; */
+  padding: 15px;
+  margin: 10px;
+}
+#div16 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* gap: 650px; */
+  padding: 15px;
+  margin: 10px;
+}
+
 .proyecto {
   display: flex;
   flex-direction: row;
@@ -61,6 +144,7 @@ img {
   margin: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 1823px;
 }
 /* --------------- PROYECTO INDIVIDUAL --------------- */
 .container {
